@@ -7,3 +7,7 @@ def roman_numerals_to_integer(roman_numerals: str) -> int:
             number += j
         roman_numerals = roman_numerals.replace(i, "")
     return number
+
+
+def integer_to_roman_numerals(integer: int) -> str:
+    pass
